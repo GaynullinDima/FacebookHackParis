@@ -1,0 +1,671 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=queen&type=track&market=US&offset=0&limit=10",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+          "id" : "4O15NlyKLIASxsJ0PrXPfz",
+          "name" : "Lil Uzi Vert",
+          "type" : "artist",
+          "uri" : "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/733e1ZfktLSwj96X5rsMeE"
+        },
+        "href" : "https://api.spotify.com/v1/albums/733e1ZfktLSwj96X5rsMeE",
+        "id" : "733e1ZfktLSwj96X5rsMeE",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/0ea8577fe124691ddce00bccf9677b16166a21db",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ead73f726959b82d78c41d28ca41edfef92b1c87",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/8bb4e383e30c9f5a938e40fe3d7f36a0dbd7d2f3",
+          "width" : 64
+        } ],
+        "name" : "Luv Is Rage 2",
+        "release_date" : "2017-08-25",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:733e1ZfktLSwj96X5rsMeE"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4O15NlyKLIASxsJ0PrXPfz",
+        "id" : "4O15NlyKLIASxsJ0PrXPfz",
+        "name" : "Lil Uzi Vert",
+        "type" : "artist",
+        "uri" : "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 173419,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USAT21703439"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2ZdCrBA52bb4pIG3tOOZiQ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2ZdCrBA52bb4pIG3tOOZiQ",
+      "id" : "2ZdCrBA52bb4pIG3tOOZiQ",
+      "name" : "Dark Queen",
+      "popularity" : 77,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f51933054640169a15eea5df714b25b7cb978c4d?cid=774b29d4f13844c495f206cafdad9c86",
+      "track_number" : 15,
+      "type" : "track",
+      "uri" : "spotify:track:2ZdCrBA52bb4pIG3tOOZiQ"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/6PXS4YHDkKvl1wkIl4V8DL"
+          },
+          "href" : "https://api.spotify.com/v1/artists/6PXS4YHDkKvl1wkIl4V8DL",
+          "id" : "6PXS4YHDkKvl1wkIl4V8DL",
+          "name" : "Fetty Wap",
+          "type" : "artist",
+          "uri" : "spotify:artist:6PXS4YHDkKvl1wkIl4V8DL"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2gKQvajkEEaDtkqJ8FJ4uw"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2gKQvajkEEaDtkqJ8FJ4uw",
+        "id" : "2gKQvajkEEaDtkqJ8FJ4uw",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/a67ffa99f1b530d868f381c2fbcd3989f89a04f5",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/5aa0bd2874ec6ae0885adc84bb02d5ffce6f8cc2",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1e01dafdf54d489a62ade5778682b3027bf72dc9",
+          "width" : 64
+        } ],
+        "name" : "Fetty Wap (Deluxe)",
+        "release_date" : "2015-09-25",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:2gKQvajkEEaDtkqJ8FJ4uw"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6PXS4YHDkKvl1wkIl4V8DL"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6PXS4YHDkKvl1wkIl4V8DL",
+        "id" : "6PXS4YHDkKvl1wkIl4V8DL",
+        "name" : "Fetty Wap",
+        "type" : "artist",
+        "uri" : "spotify:artist:6PXS4YHDkKvl1wkIl4V8DL"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 222093,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QM7XC1400004"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2d8JP84HNLKhmd6IYOoupQ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2d8JP84HNLKhmd6IYOoupQ",
+      "id" : "2d8JP84HNLKhmd6IYOoupQ",
+      "name" : "Trap Queen",
+      "popularity" : 76,
+      "preview_url" : "https://p.scdn.co/mp3-preview/62bf932cdc4d351174128d974397f5093de4f994?cid=774b29d4f13844c495f206cafdad9c86",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2d8JP84HNLKhmd6IYOoupQ"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+          "name" : "Queen",
+          "type" : "artist",
+          "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6X9k3hSsvQck2OfKYdBbXr"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6X9k3hSsvQck2OfKYdBbXr",
+        "id" : "6X9k3hSsvQck2OfKYdBbXr",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/f6e02ce8bc9e91afa0e220703072c20bf72c72c5",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/f4111b2cd4d2459cfdf9aad9010d74c97b7e3a68",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/8ea6edc8b88d8777c931bff14f48d70503de674c",
+          "width" : 64
+        } ],
+        "name" : "A Night At The Opera (Deluxe Remastered Version)",
+        "release_date" : "1975-11-21",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:6X9k3hSsvQck2OfKYdBbXr"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+        "name" : "Queen",
+        "type" : "artist",
+        "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 354320,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBUM71029604"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7tFiyTwD0nx5a1eklYtX2J",
+      "id" : "7tFiyTwD0nx5a1eklYtX2J",
+      "name" : "Bohemian Rhapsody",
+      "popularity" : 76,
+      "preview_url" : null,
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:7tFiyTwD0nx5a1eklYtX2J"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+          "name" : "Queen",
+          "type" : "artist",
+          "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/21HMAUrbbYSj9NiPPlGumy"
+        },
+        "href" : "https://api.spotify.com/v1/albums/21HMAUrbbYSj9NiPPlGumy",
+        "id" : "21HMAUrbbYSj9NiPPlGumy",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/2e82bac8c64908ef1504e8391362c030b0fdad2e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/65db5949bb2f9202ff408499879740d235b6454b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/267c2138a6c788164e000902959de702d5a6b3e3",
+          "width" : 64
+        } ],
+        "name" : "Jazz (Deluxe Remastered Version)",
+        "release_date" : "1978-11-10",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:21HMAUrbbYSj9NiPPlGumy"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+        "name" : "Queen",
+        "type" : "artist",
+        "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 209413,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBUM71029610"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7hQJA50XrCWABAu5v6QZ4i"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7hQJA50XrCWABAu5v6QZ4i",
+      "id" : "7hQJA50XrCWABAu5v6QZ4i",
+      "name" : "Don't Stop Me Now - Remastered 2011",
+      "popularity" : 74,
+      "preview_url" : null,
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:7hQJA50XrCWABAu5v6QZ4i"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3nViOFa3kZW8OMSNOzwr98"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3nViOFa3kZW8OMSNOzwr98",
+          "id" : "3nViOFa3kZW8OMSNOzwr98",
+          "name" : "Queen Naija",
+          "type" : "artist",
+          "uri" : "spotify:artist:3nViOFa3kZW8OMSNOzwr98"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4oz0LX3jJxdudGlqDCOls8"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4oz0LX3jJxdudGlqDCOls8",
+        "id" : "4oz0LX3jJxdudGlqDCOls8",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/214c2d8554a5f4ddecd21e7c3526c6f362ead639",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d1f89a1b03f2df71334b9a8af4141fa9c9868aad",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/9a0e53c02693bab9252fd73a4c40c0ce86932760",
+          "width" : 64
+        } ],
+        "name" : "Medicine",
+        "release_date" : "2018-02-03",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:4oz0LX3jJxdudGlqDCOls8"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3nViOFa3kZW8OMSNOzwr98"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3nViOFa3kZW8OMSNOzwr98",
+        "id" : "3nViOFa3kZW8OMSNOzwr98",
+        "name" : "Queen Naija",
+        "type" : "artist",
+        "uri" : "spotify:artist:3nViOFa3kZW8OMSNOzwr98"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 223000,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "GBLFP1810865"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4l8p9CJnGmaGnEMs3x9KE2"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4l8p9CJnGmaGnEMs3x9KE2",
+      "id" : "4l8p9CJnGmaGnEMs3x9KE2",
+      "name" : "Medicine",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/0bf236e92d48c2d6d28dfb54a09c57096046aa3c?cid=774b29d4f13844c495f206cafdad9c86",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4l8p9CJnGmaGnEMs3x9KE2"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+          "name" : "Queen",
+          "type" : "artist",
+          "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6wPXUmYJ9mOWrKlLzZ5cCa"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6wPXUmYJ9mOWrKlLzZ5cCa",
+        "id" : "6wPXUmYJ9mOWrKlLzZ5cCa",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/f06d523c99007852e102967846374a0ed91c04c7",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/386059b9eef628dea849170d67dee7b5cfb18cf2",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/f821ee81a8ee95cb2aad4e51da78d7e85d859410",
+          "width" : 64
+        } ],
+        "name" : "The Game (Deluxe Remastered Version)",
+        "release_date" : "1980-06-27",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:6wPXUmYJ9mOWrKlLzZ5cCa"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+        "name" : "Queen",
+        "type" : "artist",
+        "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 214653,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBUM71029605"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/57JVGBtBLCfHw2muk5416J"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/57JVGBtBLCfHw2muk5416J",
+      "id" : "57JVGBtBLCfHw2muk5416J",
+      "name" : "Another One Bites The Dust",
+      "popularity" : 74,
+      "preview_url" : null,
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:57JVGBtBLCfHw2muk5416J"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0LcJLqbBmaGUft1e9Mm8HV"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0LcJLqbBmaGUft1e9Mm8HV",
+          "id" : "0LcJLqbBmaGUft1e9Mm8HV",
+          "name" : "ABBA",
+          "type" : "artist",
+          "uri" : "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1M4anG49aEs4YimBdj96Oy"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1M4anG49aEs4YimBdj96Oy",
+        "id" : "1M4anG49aEs4YimBdj96Oy",
+        "images" : [ {
+          "height" : 575,
+          "url" : "https://i.scdn.co/image/de30d4da9efd1b491493ed288e09b6f935ff10ab",
+          "width" : 640
+        }, {
+          "height" : 270,
+          "url" : "https://i.scdn.co/image/b8e2ae77e9379d27e33f39d2c2643cb52de1b8ac",
+          "width" : 300
+        }, {
+          "height" : 57,
+          "url" : "https://i.scdn.co/image/a346fc150b229c7818029110858b3d915cf9400e",
+          "width" : 63
+        } ],
+        "name" : "Arrival",
+        "release_date" : "1976",
+        "release_date_precision" : "year",
+        "type" : "album",
+        "uri" : "spotify:album:1M4anG49aEs4YimBdj96Oy"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0LcJLqbBmaGUft1e9Mm8HV"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0LcJLqbBmaGUft1e9Mm8HV",
+        "id" : "0LcJLqbBmaGUft1e9Mm8HV",
+        "name" : "ABBA",
+        "type" : "artist",
+        "uri" : "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 230693,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEAYD7601020"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4NtUY5IGzHCaqfZemmAu56"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4NtUY5IGzHCaqfZemmAu56",
+      "id" : "4NtUY5IGzHCaqfZemmAu56",
+      "name" : "Dancing Queen",
+      "popularity" : 70,
+      "preview_url" : null,
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:4NtUY5IGzHCaqfZemmAu56"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv"
+          },
+          "href" : "https://api.spotify.com/v1/artists/34jw2BbxjoYalTp8cJFCPv",
+          "id" : "34jw2BbxjoYalTp8cJFCPv",
+          "name" : "Heart",
+          "type" : "artist",
+          "uri" : "spotify:artist:34jw2BbxjoYalTp8cJFCPv"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1LaeNhiUpL3X6N0LcFvuDF"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1LaeNhiUpL3X6N0LcFvuDF",
+        "id" : "1LaeNhiUpL3X6N0LcFvuDF",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e384a4745909227fa7720beb96c2ff32d4d8fe3f",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ac660b6ac11fc8c664097f3e6e69eeab14e94734",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/33d6b8c9a2fdc5bf6b918ba358db4d6223e978da",
+          "width" : 64
+        } ],
+        "name" : "Little Queen",
+        "release_date" : "1977-05-14",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:1LaeNhiUpL3X6N0LcFvuDF"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv"
+        },
+        "href" : "https://api.spotify.com/v1/artists/34jw2BbxjoYalTp8cJFCPv",
+        "id" : "34jw2BbxjoYalTp8cJFCPv",
+        "name" : "Heart",
+        "type" : "artist",
+        "uri" : "spotify:artist:34jw2BbxjoYalTp8cJFCPv"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 261933,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USSM10009075"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4KfSdst7rW39C0sfhArdrz",
+      "id" : "4KfSdst7rW39C0sfhArdrz",
+      "name" : "Barracuda",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/40fe19875a5d5aae773c517c3179c47d12f94c25?cid=774b29d4f13844c495f206cafdad9c86",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4KfSdst7rW39C0sfhArdrz"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+          "name" : "Queen",
+          "type" : "artist",
+          "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6RJyYMIrOtx3VnNIoq31kj"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6RJyYMIrOtx3VnNIoq31kj",
+        "id" : "6RJyYMIrOtx3VnNIoq31kj",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/23febcfad6d12001a0df5a5f4c33e9ff78f8b2f1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/c3a53d1ab2c68eb5b77b672a8877efb069fadbcd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/da5e4b07f339bd97f7f45c2054efa7426ddaf78f",
+          "width" : 64
+        } ],
+        "name" : "Sheer Heart Attack (Deluxe Remastered Version)",
+        "release_date" : "1974-11-08",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:6RJyYMIrOtx3VnNIoq31kj"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+        "name" : "Queen",
+        "type" : "artist",
+        "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 179600,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBUM71029606"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7GqWnsKhMtEW0nzki5o0d8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7GqWnsKhMtEW0nzki5o0d8",
+      "id" : "7GqWnsKhMtEW0nzki5o0d8",
+      "name" : "Killer Queen",
+      "popularity" : 62,
+      "preview_url" : null,
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:7GqWnsKhMtEW0nzki5o0d8"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+          "name" : "Queen",
+          "type" : "artist",
+          "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        } ],
+        "available_markets" : [ ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6Di4m5k1BtMJ0R44bWNutu"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6Di4m5k1BtMJ0R44bWNutu",
+        "id" : "6Di4m5k1BtMJ0R44bWNutu",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/f55a6b339d3a4d4fc3a624d77f7ecb1c64930c99",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/a491839ba2cecedb308ec5fbdeb93f7c69e7d4b2",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/d179cf97683c01ee1fbd2b6d1ea93b1c45ded377",
+          "width" : 64
+        } ],
+        "name" : "News Of The World (Deluxe Remastered Version)",
+        "release_date" : "1977-10-28",
+        "release_date_precision" : "day",
+        "type" : "album",
+        "uri" : "spotify:album:6Di4m5k1BtMJ0R44bWNutu"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+        "name" : "Queen",
+        "type" : "artist",
+        "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 122066,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBUM71029618"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/54flyrjcdnQdco7300avMJ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/54flyrjcdnQdco7300avMJ",
+      "id" : "54flyrjcdnQdco7300avMJ",
+      "name" : "We Will Rock You - Remastered 2011",
+      "popularity" : 69,
+      "preview_url" : null,
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:54flyrjcdnQdco7300avMJ"
+    } ],
+    "limit" : 10,
+    "next" : "https://api.spotify.com/v1/search?query=queen&type=track&market=US&offset=10&limit=10",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 74860
+  }
+}
