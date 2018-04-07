@@ -12,7 +12,6 @@ xmlhttp.onreadystatechange = function() {
         }
         html += '</tbody>';
         document.getElementById("table").innerHTML = html;
-        //document.getElementById("table").append(html);
     }
 };
 xmlhttp.open("GET", "data.json", true);
