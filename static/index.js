@@ -1,22 +1,38 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        var obj = JSON.parse(this.responseText);
-        console.log(obj);
-        updateTable(obj);
-    }
+var config = {
+    apiKey: "AIzaSyBryG57RvSSjAUCwBPhD8rgSYulgifYP8I",
+    authDomain: "facebookhackatonparis.firebaseapp.com",
+    databaseURL: "https://facebookhackatonparis.firebaseio.com",
+    projectId: "facebookhackatonparis",
+    storageBucket: "facebookhackatonparis.appspot.com",
+    messagingSenderId: "115421883193"
 };
-xmlhttp.open("GET", "data.json", true);
-xmlhttp.send();
+firebase.initializeApp(config);
 
-function updateTable(obj) {
-    var html = '<thead><tr><th scope="col">#</th><th scope="col">Song</th><th scope="col">Artist</th><th scope="col">Votes</th></tr></thead><tbody>';
-    for (var i = 0; i < obj.tracks.items.length; i++) {
-        html += '<tr><th scope="row">' + (i + 1) + '</th>';
-        html += '<td>' + obj.tracks.items[i].name + '</td>';
-        html += '<td>' + obj.tracks.items[i].artists[0].name + '</td>';
-        html += '<td>' + (10 - i) + '</td></tr>';
-    }
-    html += '</tbody>';
-    document.getElementById("table").innerHTML = html;
+var database = firebase.database();
+
+
+var playListRef = database.ref('playlist/').orderByChild("votes");
+playListRef.on('value', function(snapshot) {
+    updatePlaylist(snapshot);
+});
+
+function updatePlaylist(snap) {
+    var table = document.getElementById("table");
+    table.innerHTML = "";
+    snap.forEach(function(childSnapshot) {
+        var row = '';
+        votes = childSnapshot.val().votes;
+        songName = childSnapshot.val().name;
+        artist = childSnapshot.val().artist;
+        var x = table.insertRow(0);
+        var x1 = x.insertCell();
+        x1.innerHTML = songName;
+        var x2 = x.insertCell();
+        x2.innerHTML = artist;
+        var x3 = x.insertCell();
+        x3.innerHTML = votes;
+        x.onclick = function () {
+            firebase.database().ref('playlist/' + childSnapshot.key + '/votes').set(childSnapshot.val().votes + 1);
+        }
+    });
 }
