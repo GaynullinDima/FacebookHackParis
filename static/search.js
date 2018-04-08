@@ -33,6 +33,7 @@ function updateTable(obj) {
         songName = items[i].name;
         artist = items[i].artists[0].name;
         id = items[i].id;
+        duration_ms = items[i].duration_ms;
         var x = table.insertRow(0);
         var x1 = x.insertCell();
         x1.innerHTML = songName;
@@ -41,11 +42,13 @@ function updateTable(obj) {
         x.id = id;
         x1.id = songName;
         x2.id = artist;
+        x2.class = duration_ms;
         x.onclick = function () {
             firebase.database().ref('playlist/' + this.id).set({
                 name: this.cells[0].id,
                 artist: this.cells[1].id,
-                votes: 1
+                votes: 1,
+                duration_ms: x2.class
             });
         }
     }

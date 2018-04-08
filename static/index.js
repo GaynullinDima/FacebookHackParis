@@ -10,7 +10,6 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
-
 var playListRef = database.ref('playlist/').orderByChild("votes");
 playListRef.on('value', function(snapshot) {
     updatePlaylist(snapshot);
