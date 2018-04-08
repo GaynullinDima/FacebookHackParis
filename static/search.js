@@ -49,6 +49,14 @@ function updateTable(obj) {
                 artist: this.cells[1].id,
                 votes: 1,
                 duration_ms: x2.class
+            }, function(error) {
+                if (error) {
+                    console.log("Data could not be saved." + error);
+                    window.location.href = "index.html";
+                } else {
+                    console.log("Data saved successfully.");
+                    window.location.href = "index.html";
+                }
             });
         }
     }
