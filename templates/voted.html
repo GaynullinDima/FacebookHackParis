@@ -6,14 +6,13 @@
         <link rel="stylesheet" type="text/css" href="/static/style.css">
     </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
-  <form class="form-inline" style="width:100%">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:100%" oninput="searchSongs(this.value)">
-  </form>
-</nav>
+<div>
+	Your vote has been saved!
+</div>
 
-<table id="table" class="panel table table-striped table-dark">
-</table>
+<form action={{ url_for('index') }} type="GET">
+	<button class="btn btn-dark" href={{ url_for('index') }}> Return </button>
+</form>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>

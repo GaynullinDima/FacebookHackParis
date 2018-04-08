@@ -1,9 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import playlist
 import song
 import json
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 p = playlist.Playlist()
 s1 = song.Song("1", 1)
@@ -35,8 +35,7 @@ def search():
 
 @app.route('/voted')
 def voted():
-    return 'Your vote is received'
-
+    return render_template('voted.html')
 
 if __name__ == '__main__':
     app.run()
