@@ -1,5 +1,4 @@
 function searchSongs(value) {
-    console.log(value);
     if (value == "") return;
         $.ajax({
         url: "https://api.spotify.com/v1/search?q=" + value + "&type=track&market=US&limit=10&offset=0",
@@ -9,7 +8,6 @@ function searchSongs(value) {
             jqXHR.setRequestHeader("Authorization", "Bearer BQAeKLzwe-ehRvbK08GKkR4CL4YdJGIeqGEbh9J8RCfNb5ctlFU8jBXjAogv9Lvcpq9XsrF7dF-jXLRGk-yDoEeG8d06znAZelAVRbhMA189iH4yRYAQ6FeE7aiVSuKxheHQ5gfCCHJ8ujqXOxJDPlD8SA");
         },
         success: function(result){
-            console.log(result);
             updateTable(result);
         }
     });
